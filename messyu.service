@@ -1,0 +1,10 @@
+[Unit]
+Description = messyu daemon
+
+[Service]
+ExecStart = /usr/local/bin/messyu.py
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
