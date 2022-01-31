@@ -71,7 +71,6 @@ If you follow these steps, config file is /etc/messyu/config.ini
 ### 5. Service enable and start
 
 ```bash
-systemctl enable messyu.service
 systemctl start messyu.service
 ```
 
